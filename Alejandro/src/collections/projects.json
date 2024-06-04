@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Rick and Morty",
+		"description": "En esta api REST simente mis conocimientos en React JS",
+		"image": "/assets/images/projects/RickAndMorty.png",
+		"url": ""
+	},
+	{
+		"name": "Video Games",
+		"description": "En esta Api REST de pagina de video juegos termine de consolidar mis conocimientos y aplique las mejores practicas en el desarrollo",
+		"image": "/assets/images/projects/VideoGames.png",
+		"url": ""
+	},
+	{
+		"name": "Sistema Web",
+		"description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
+		"image": "/assets/images/projects/Starwork.png",
+		"url": ""
+	}
+]

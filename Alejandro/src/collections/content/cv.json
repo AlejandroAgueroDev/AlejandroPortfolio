@@ -1,0 +1,26 @@
+{
+  "basics": {
+    "name": "Alejandro Agüero",
+    "label": "Programmer",
+    "email": "alejandroaguerodev@gmail.com",
+    "phone": "+543865386688",   
+    
+    "profiles": [
+     {
+      "network": "GitHub",
+      "username": "Alejandro",
+      "url": "https://github.com/AlejandroAgueroDev"
+     },
+     {
+      "network": "Linkedin",
+      "username": "Alejandro",
+      "url": "https://www.linkedin.com/in/alejandroaguerodev/"
+     },
+     {
+      "network": "Instagrame",
+      "username": "Alejandro",
+      "url": "https://www.instagram.com/alejandro_.aguero/"
+     }
+    ]
+   }
+}

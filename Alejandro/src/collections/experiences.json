@@ -1,0 +1,37 @@
+[
+  {
+    "dates": "Febrero 2024 · Actualidad",
+    "role": "Teaching Assistant",
+    "company": "Soy Henry",
+    "description": "Estoy encargado de coordinar a un grupo de estudiantes para lograr la integración al equipo de estudio. Asistir a la resolución de ejercicios y promover la colaboración grupal (Pair Programming). Proponer ideas para la mejora de los procesos del Bootcamp.",
+    "logo": "/assets/images/experiences/SoyHenry.ico"
+  },
+  {
+    "dates": "Abril 2024 · Mayo 2024",
+    "role": "Front-end Developer",
+    "company": "Starwork",
+    "description": "Fui responsable del maquetado general del poryecto, tambien participe el el estilado del mismo",
+    "logo": "/assets/images/experiences/Starwork1.ico"
+  },
+  {
+    "dates": "Febrero 2024 · Marzo 2024",
+    "role": "Front-end Developer",
+    "company": "Soy Henry",
+    "description": "Desarrolle mi primer poryecto individual, el cual consistia en un consumo de una api para mostrar datos de video juegos",
+    "logo": "/assets/images/experiences/SoyHenry.ico"
+  },
+  {
+    "dates": "Octubre 2024 · Enero 2024 ",
+    "role": "Front-end Developer",
+    "company": "Soy Henry",
+    "description": "Cree mi primer proyecto en React JS, el cual consumia de manera simple datos de una api para mostrarlos y guardarlos en una Data Base",
+    "logo": "/assets/images/experiences/SoyHenry.ico"
+  },
+  {
+    "dates": "Junio 2028 · Actualidad",
+    "role": "Personal de proceso de apoyo documental y atención al cliente",
+    "company": "Empresa Custodia de Archivos Noroeste SRL",
+    "description": "En esta empresa especializada en la gestión documental física para diversas organizaciones. Mi labor se centra en la  carga de datos, gestión, clasificación y almacenamiento de documentos físicos. Mi tarea ayudó a la empresa a  agilizar sus carga de datos, incrementando el rendimiento de búsqueda de documentos físicos en un 30% al  implementar mejoras en los procesos o métodos que se realizaban a la hora de buscar dichos papeles. También  adquirí habilidades como eficiencia y rapidez resolutiva a la hora de dialogar con clientes que solicitaban datos  puntuales, resolviendo sus dudas o asistiendo a sus pedidos de manera ágil. ",
+    "logo": "/assets/images/experiences/Custodia.ico"
+  }
+]
