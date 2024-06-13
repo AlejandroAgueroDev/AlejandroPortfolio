@@ -6,7 +6,7 @@ import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
 import GitHub from "../icons/Github.astro";
 import Linkedin from "../icons/Linkedin.astro";
-import Instagrame from "../icons/Instagrame.astro";
+import Instagram from "../icons/Instagram.astro";
 
 import { basics } from "../collections/content/cv.json";
 
@@ -14,7 +14,7 @@ const { name, profiles, phone, email } = basics;
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   Linkedin,
-  Instagrame,
+  Instagram,
 };
 const linkedinInfo = profiles.find(({ network }) => network === "Linkedin");
 const linkedinURL = linkedinInfo?.url;
@@ -139,11 +139,12 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
             </span>
           </div>
           <div class="relative z-30 px-10">
+            <!-- src="/assets/images/photo.png" -->
             <img
-            src="/assets/images/photo.png"
+            src="/assets/images/Alejandro.png"
             loading="eager"
               decoding="auto"
-              class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
+              class="relative z-30 w-full aspect-[890/1095] md:max-w-md mx-auto dark:-translate-y-0.5"
             />
           </div>
           <div
