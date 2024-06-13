@@ -31,7 +31,16 @@ import Project from "../project.astro";
     }
   </div>
 
-  <div class="flex items-center justify-center w-full py-5">
+  <div id="printButton" class="flex items-center justify-center w-full py-5">
     <Button text="Ver todos los proyectos" link="/projects" />
   </div>
 </section>
+
+
+<style>
+  @media print {
+    #printButton{
+      display: none;
+    }
+  }
+</style>

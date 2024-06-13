@@ -12,13 +12,20 @@ import Layout from "../layouts/main.astro";
       description="Hola 👋 Soy un desarrollador frontend de Tucumán, Argentina. Me apasiona crear nuevos productos y aprender nuevas tecnologías."
     />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+    <img
+      src="/assets/images/about.jpg"
+      class="relative z-30 w-full my-10 rounded-xl"
+    />
 
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Breve Biografía</h2>
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
+      Breve Biografía
+    </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Inclinación hacia el Front-end y el diseño web 🧑🏻‍💻, amateur del Back-end 🤷🏻‍♂️, extrovertido, deportista y viviendo la vida con la frase "Disfrutar de las experiencias y rodearse de gente positiva😊".
+      Inclinación hacia el Front-end y el diseño web 🧑🏻‍💻, amateur del Back-end
+      🤷🏻‍♂️, extrovertido, deportista y viviendo la vida con la frase "Disfrutar de
+      las experiencias y rodearse de gente positiva😊".
     </p>
 
     <h2
@@ -51,21 +58,43 @@ import Layout from "../layouts/main.astro";
                 />
               )}
             </>
-          )
+          );
         })
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Conectemos</h2>
-    <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-    >
-    Si deseas estar en contacto conmigo podrias escribirme a mi <a target="_blank" href="alejandroaguerodev@gmail.com" class="text-indigo-600 underline"
-        >email</a
-      > y me aseguraré de responderte.
-    Tambien puedes agregarme a mi <a target="_blank" href="https://www.linkedin.com/in/alejandroaguerodev/" class="text-indigo-600 underline"
-    >Linkedin</a> o agregarme en <a target="_blank" href="https://www.instagram.com/alejandro_.aguero/" class="text-indigo-600 underline"
-    >Instagram</a>
-    </p>
+    <div id="printConectemos">
+      <h2
+        class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+      >
+        Conectemos
+      </h2>
+      <p
+        class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+      >
+        Si deseas estar en contacto conmigo podrias escribirme a mi <a
+          target="_blank"
+          href="alejandroaguerodev@gmail.com"
+          class="text-indigo-600 underline">email</a
+        > y me aseguraré de responderte. Tambien puedes agregarme a <a
+          target="_blank"
+          href="https://www.linkedin.com/in/alejandroaguerodev/"
+          class="text-indigo-600 underline">Linkedin</a
+        > o seguirme en <a
+          target="_blank"
+          href="https://www.instagram.com/alejandro_.aguero/"
+          class="text-indigo-600 underline">Instagram</a
+        >
+        para tambien poder estar en contacto conmigo.
+      </p>
+    </div>
   </section>
 </Layout>
+
+<style>
+  @media print{
+    #printConectemos{
+      display: none;
+    }
+  }
+</style>

@@ -27,14 +27,14 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
 
 <Layout title="Alejandro Agüero Web Full Stack">
   <div
-    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+    class="relative z-20 w-full max-w-4xl mx-auto mt-8 px-7 md:mt-12 lg:mt-16 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
         <h1
-          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
+          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-4xl dark:text-white"
         >
-          Hola! Me llamo Alejandro
+          Hola! Me llamo Alejandro Agüero
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
           Soy un Front-End programador que vive en Tucumán-Argentina. <br
@@ -57,7 +57,6 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
           <li>Diseño web</li>
           <li>y mucho más ...</li>
         </ul>
-        <!-- <Button text="Visita mi pagina en Instagrame" link="https://twitter.com/ccbikai" /> -->
 
         <footer class="print">
           <div>
@@ -65,6 +64,9 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
           </div>
         </footer>
 
+        <p class="no-print text-base text-neutral-600 dark:text-neutral-400 ml-12 mt-3 mb-2">
+          Mis Redes:
+        </p>
         <footer class="no-print">
           {
             email && (
@@ -109,7 +111,17 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
             })
           }
         </footer>
+
+        <div class="ml-7 no-print">
+          <Button
+            text="Descarga mi CV"
+            link="https://drive.google.com/uc?export=download&id=1oPy7s0wpovunfj8eyCBJh6NMiwOTY1QM"
+            download
+          />
+        </div>
+
       </div>
+
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
       >
@@ -140,6 +152,7 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
           </div>
         </div>
       </div>
+      
     </div>
   </div>
 
@@ -159,6 +172,7 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
     color: #555;
   }
 
+  
   footer a {
     color: #777;
     display: inline-flex;
@@ -175,6 +189,10 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
   footer a:hover {
     background: #eee;
     border: 1px solid #bbb;
+  }
+
+  .buttonCV {
+    margin-left: 50px;
   }
 
   .print {
