@@ -6,10 +6,10 @@ import Layout from "../layouts/main.astro";
 ---
 
 <Layout title="Te cuento un poco de mí">
-  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+  <section class="relative z-20 max-w-4xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="Sobre Mí"
-      description="Hola 👋 Soy un desarrollador frontend de Tucumán, Argentina. Me apasiona crear nuevos productos y aprender nuevas tecnologías."
+      description="Hola 👋 Soy un desarrollador frontend de Tucumán, Argentina. Me apasiona crear nuevas soluciones y demostrar mi creatividad y pasión."
     />
 
     <img
@@ -21,25 +21,41 @@ import Layout from "../layouts/main.astro";
       Breve Biografía
     </h2>
     <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+      class="mt-5 text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Inclinación hacia el Front-end y el diseño web 🧑🏻‍💻, amateur del Back-end
-      🤷🏻‍♂️, extrovertido, deportista y viviendo la vida con la frase "Disfrutar de
-      las experiencias y rodearse de gente positiva😊".
+    Comencé con la programación desde que tengo 14 años de edad , cuando me regalaron mi primera computadora. Desde entonces supe que me iba a dedicar a la tecnología. Pasaron los años, en secundaria fue mi acercamiento con la programación al aprender un poco de HTML y CSS. 
     </p>
+    <p class="mt-10 text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+      También estuve en una carrera de ingeniería, pero no me llevó por el lado que más me gustaba. Luego de eso, comencé a aprender por mi cuenta a programar y fue ahí donde encontré un vasto mundo de lenguajes y frameworks, entre todo eso descubrí mi inclinación hacia el Front-end y el diseño web. 
+    </p>
+
+    <div class="flex sm:flex-row flex-col mt-10 items-center">
+      <div class="mr-16 p-1 rounded-2xl border-dashed border-2 border-gray-500 sm:block hidden">
+        <img class="w-96 h-72 rounded-2xl object-cover" src="/assets/images/Arbolismo2.png" alt="Kayak">
+      </div>
+      <p class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg">
+        Pero no soy solo nerd y código. Soy alguien extrovertido, deportista, me gustan mucho los animales; dato de color: tengo un perro que se duerme parado. Me gustan mucho las actividades al aire libre, como hacer trekking, navegar en kayak o participar de juegos en altura como arbolismo.
+      </p>
+      <div class="ml-16 p-1 rounded-2xl border-dashed border-2 border-gray-500 sm:block hidden">
+        <img class="w-96 h-72 rounded-2xl object-cover" src="/assets/images/Kayak.png" alt="Kayak">
+      </div>
+    </div>
+    
+    
+    
 
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experiencia
+      Experiencia Laboral
     </h2>
     <div class="px-5 py-10">
-      {
+      { 
         experiences.map((experience, loop) => {
           return (
             <>
               {loop !== experiences.length - 1 ? (
-                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
+                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700 ">
                   <AboutExperience
                     dates={experience.dates}
                     role={experience.role}

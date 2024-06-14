@@ -8,7 +8,8 @@
 		"build": "astro check && astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"check": "biome check --apply-unsafe ."
+		"check": "biome check --apply-unsafe .",
+    "tailwind": "tailwindcss build src/assets/css/main.css -o public/assets/css/main.css"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.6.0",
