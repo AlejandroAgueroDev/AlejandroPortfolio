@@ -16,5 +16,11 @@
 		"description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
 		"image": "/assets/images/projects/Starwork.png",
 		"url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero"
+	},
+  {
+		"name": "Landing Page",
+		"description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
+		"image": "/assets/images/projects/Empresa.png",
+		"url": "https://github.com/AlejandroAgueroDev/Empresa"
 	}
 ]
