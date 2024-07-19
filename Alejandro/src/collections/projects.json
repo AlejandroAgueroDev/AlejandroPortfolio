@@ -1,26 +1,32 @@
 [
-	{
-		"name": "Rick and Morty",
-		"description": "En esta api REST simente mis conocimientos en React JS",
-		"image": "/assets/images/projects/RickAndMorty.png",
-		"url": "https://github.com/AlejandroAgueroDev/RickandMorty"
-	},
-	{
-		"name": "Video Games",
-		"description": "En esta Api REST de pagina de video juegos termine de consolidar mis conocimientos y aplique las mejores practicas en el desarrollo",
-		"image": "/assets/images/projects/VideoGames.png",
-		"url": "https://github.com/AlejandroAgueroDev/videogame"
-	},
-	{
-		"name": "Sistema Web",
-		"description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
-		"image": "/assets/images/projects/Starwork.png",
-		"url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero"
-	},
   {
-		"name": "Landing Page",
-		"description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
-		"image": "/assets/images/projects/Empresa.png",
-		"url": "https://empresa-steel.vercel.app/"
-	}
+    "name": "Rick and Morty",
+    "description": "En esta api REST simente mis conocimientos en React JS",
+    "image": "/assets/images/projects/RickAndMorty.png",
+    "url": "https://github.com/AlejandroAgueroDev/RickandMorty"
+  },
+  {
+    "name": "Video Games",
+    "description": "En esta Api REST de pagina de video juegos termine de consolidar mis conocimientos y aplique las mejores practicas en el desarrollo",
+    "image": "/assets/images/projects/VideoGames.png",
+    "url": "https://github.com/AlejandroAgueroDev/videogame"
+  },
+  {
+    "name": "Sistema Web",
+    "description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
+    "image": "/assets/images/projects/Starwork.png",
+    "url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero"
+  },
+  {
+    "name": "Landing Page",
+    "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
+    "image": "/assets/images/projects/Empresa.png",
+    "url": "https://empresa-steel.vercel.app/"
+  },
+  {
+    "name": "QR Generate",
+    "description": "Este proyecto tiene como objetivo generar un código QR que pueda copiarse al portapapeles con los datos que contiene el código o descargarse en formato PNG o PDF.",
+    "image": "/assets/images/projects/AP_QR_Generate.png",
+    "url": "https://app-qr-generate.vercel.app/"
+  }
 ]
