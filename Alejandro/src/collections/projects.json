@@ -1,9 +1,15 @@
 [
   {
-    "name": "Rick and Morty",
-    "description": "En esta api REST simente mis conocimientos en React JS",
-    "image": "/assets/images/projects/RickAndMorty.png",
-    "url": "https://github.com/AlejandroAgueroDev/RickandMorty"
+    "name": "Cofundador de FORGEXP",
+    "description": "Esta es una empresa de desarrollo de software a medida, auditoria y mantenimiento. Donde nuestra misión principal es proporcionar un servicio personalizado, de calidad y de la manera más eficiente posible.",
+    "image": "/assets/images/projects/ForgeXP.png",
+    "url": "https://www.forgexp.com.ar/"
+  },
+  {
+    "name": "Landing Page",
+    "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
+    "image": "/assets/images/projects/Empresa.png",
+    "url": "https://empresa-steel.vercel.app/"
   },
   {
     "name": "Video Games",
@@ -12,16 +18,16 @@
     "url": "https://github.com/AlejandroAgueroDev/videogame"
   },
   {
+    "name": "Rick and Morty",
+    "description": "En esta api REST simente mis conocimientos en React JS",
+    "image": "/assets/images/projects/RickAndMorty.png",
+    "url": "https://github.com/AlejandroAgueroDev/RickandMorty"
+  },
+  {
     "name": "Sistema Web",
     "description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
     "image": "/assets/images/projects/Starwork.png",
     "url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero"
-  },
-  {
-    "name": "Landing Page",
-    "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
-    "image": "/assets/images/projects/Empresa.png",
-    "url": "https://empresa-steel.vercel.app/"
   },
   {
     "name": "QR Generate",
