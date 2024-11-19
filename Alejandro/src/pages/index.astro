@@ -29,9 +29,10 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
     class="relative z-20 w-full max-w-4xl mx-auto mt-8 px-7 md:mt-12 lg:mt-16 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
-
       <!-- div de texto -->
-      <div class="relative w-full md:w-1/2 flex flex-col items-center justify-center md:items-start">
+      <div
+        class="relative w-full md:w-1/2 flex flex-col items-center justify-center md:items-start"
+      >
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-4xl dark:text-white"
         >
@@ -65,7 +66,9 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
           </div>
         </footer>
 
-        <p class="no-print text-base text-neutral-600 dark:text-neutral-400 ml-12 mt-3 mb-2">
+        <p
+          class="no-print text-base text-neutral-600 dark:text-neutral-400 ml-12 mt-3 mb-2"
+        >
           Mis Redes:
         </p>
         <footer class="no-print">
@@ -120,15 +123,15 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
             download
           />
         </div>
-
       </div>
 
       <!-- div de imagenes -->
+      <!-- Contenedor para pantallas grandes -->
       <div
-        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 translate-x-16 -translate-y-2 md:mt-0 "
+        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 translate-x-16 -translate-y-2 md:mt-0"
       >
         <div class="relative z-50 w-full">
-          <!-- Parte del circulo -->
+          <!-- Parte del círculo -->
           <div
             class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[330px] rounded-full"
           >
@@ -141,10 +144,11 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
               >
             </span>
           </div>
+          <!-- Imagen -->
           <div class="relative z-30 px-10">
             <img
-            src="/assets/images/Alejandro.png"
-            loading="eager"
+              src="/assets/images/Alejandro.png"
+              loading="eager"
               decoding="auto"
               class="relative z-30 w-full aspect-[890/1133] rounded-2xl -translate-y-0.5 -translate-x-7 md:max-w-md mx-auto dark:-translate-y-0.5 dark:aspect-[890/1135]"
             />
@@ -156,13 +160,46 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
           </div>
         </div>
       </div>
-      
+
+      <!-- Contenedor alternativo para móviles -->
+      <div
+        class="relative flex flex-col items-center justify-center w-full mt-10 md:hidden"
+      >
+        <div class="relative z-50 w-3/4">
+          <!-- Parte del círculo -->
+          <div
+            class="absolute top-0 z-40 w-16 h-16 -translate-y-1/2 rounded-full"
+          >
+            <span
+              class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
+            >
+              <span
+                class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
+                >👋</span
+              >
+            </span>
+          </div>
+          <!-- Imagen centrada -->
+          <div class="relative z-30">
+            <img
+              src="/assets/images/Alejandro.png"
+              loading="eager"
+              decoding="auto"
+              class="relative z-30 w-full aspect-[890/1133] rounded-2xl mx-auto dark:aspect-[890/1135]"
+            />
+          </div>
+          <!-- Parte del recuadro -->
+          <div
+            class="absolute top-0 left-0 z-20 w-full h-full border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700"
+          >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <Separator text="Mira mis proyectos"/>
-  <Projects showLimit={3}/>
-  
+  <Separator text="Mira mis proyectos" />
+  <Projects showLimit={3} />
 </Layout>
 
 <style>
@@ -175,7 +212,6 @@ const printInfo = [email, phone, linkedinURL, GitHubURL]
     color: #555;
   }
 
-  
   footer a {
     color: #777;
     display: inline-flex;

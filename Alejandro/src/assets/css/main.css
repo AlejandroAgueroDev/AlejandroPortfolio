@@ -38,31 +38,50 @@ html.dark #darkToggle:hover .horizon {
 
 @keyframes setting {
   0% {
-    transform: translate3d(0, 10px, 0)
+    transform: translate3d(0, 10px, 0);
   }
 
   40% {
-    transform: translate3d(0, -2px, 0)
+    transform: translate3d(0, -2px, 0);
   }
 
   to {
-    transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0);
   }
 }
 
 @keyframes rising {
   0% {
     opacity: 0;
-    transform: translate3d(0, 30px, 0)
+    transform: translate3d(0, 30px, 0);
   }
 
   40% {
     opacity: 1;
-    transform: translate3d(0, -2px, 0)
+    transform: translate3d(0, -2px, 0);
   }
 
   to {
     opacity: 1;
-    transform: translate3d(0, 10, 0)
+    transform: translate3d(0, 10, 0);
   }
+}
+
+/* Estilos básicos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra vertical */
+}
+
+::-webkit-scrollbar-track {
+  background: #42424200; /* Color de fondo de la barra */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666464; /* Color del "pulgar" de desplazamiento */
+  border-radius: 6px; /* Bordes redondeados */
+  border: 3px solid #424242; /* Espacio entre el track y el thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #807e7e; /* Cambia el color al pasar el mouse */
 }
