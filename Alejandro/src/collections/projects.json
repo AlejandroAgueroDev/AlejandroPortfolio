@@ -3,36 +3,42 @@
     "name": "Cofundador de FORGEXP",
     "description": "Esta es una empresa de desarrollo de software a medida, auditoria y mantenimiento. Donde nuestra misión principal es proporcionar un servicio personalizado, de calidad y de la manera más eficiente posible.",
     "image": "/assets/images/projects/ForgeXP.png",
-    "url": "https://www.forgexp.com.ar/"
+    "url": "https://www.forgexp.com.ar/",
+    "tecnologi": "Astro, Tailwind Css, Typescript"
   },
   {
     "name": "Landing Page",
     "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
     "image": "/assets/images/projects/Empresa.png",
-    "url": "https://empresa-steel.vercel.app/"
+    "url": "https://empresa-steel.vercel.app/",
+    "tecnologi": "Astro, Tailwind Css, Javascript"
   },
   {
     "name": "Video Games",
     "description": "En esta Api REST de pagina de video juegos termine de consolidar mis conocimientos y aplique las mejores practicas en el desarrollo",
     "image": "/assets/images/projects/VideoGames.png",
-    "url": "https://github.com/AlejandroAgueroDev/videogame"
+    "url": "https://github.com/AlejandroAgueroDev/videogame",
+    "tecnologi": "React, Vite, CSS, Javascript, Express JS, Postgres SQL, Axios"
   },
   {
     "name": "Rick and Morty",
     "description": "En esta api REST simente mis conocimientos en React JS",
     "image": "/assets/images/projects/RickAndMorty.png",
-    "url": "https://github.com/AlejandroAgueroDev/RickandMorty"
+    "url": "https://github.com/AlejandroAgueroDev/RickandMorty",
+    "tecnologi": "React, Vite, CSS, Javascript, Express JS, Postgres SQL, Axios"
   },
   {
     "name": "Sistema Web",
     "description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
     "image": "/assets/images/projects/Starwork.png",
-    "url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero"
+    "url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero",
+    "tecnologi": "React, Vite, Tailwind CSS, Javascript, Express JS, Postgres SQL, Axios, Auth"
   },
   {
     "name": "QR Generate",
     "description": "Este proyecto tiene como objetivo generar un código QR que pueda copiarse al portapapeles con los datos que contiene el código o descargarse en formato PNG o PDF.",
     "image": "/assets/images/projects/AP_QR_Generate.png",
-    "url": "https://app-qr-generate.vercel.app/"
+    "url": "https://app-qr-generate.vercel.app/",
+    "tecnologi": "Astro, Tailwind Css, Javascript"
   }
 ]
