@@ -1,5 +1,18 @@
 [
   {
+    "dates": "Actualidad",
+    "role": "Freelance",
+    "description": "Creo sistemas a medidas para resolver una necedidad especifica del cliente, haciendo foco en la eficiencia del sistema",
+    "logo": "/assets/images/experiences/Freelance.png"
+  },
+  {
+    "dates": "Actualidad",
+    "role": "Frontend Developer",
+    "company": "ForgeXP",
+    "description": "Responsable del front en los desarrolos de los sistemas, enfocando todo en la accesibilidad y practicidad para el cliente.",
+    "logo": "/assets/images/experiences/Freelance.png"
+  },
+  {
     "dates": "Febrero 2024 · Actualidad",
     "role": "Teaching Assistant",
     "company": "Soy Henry",

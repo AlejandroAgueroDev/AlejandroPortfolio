@@ -7,11 +7,31 @@
     "tecnologi": "Astro, Tailwind Css, Typescript"
   },
   {
+    "name": "Sistema de gestion para tambo",
+    "description": "Este sistema permite llevar a cabo un control preciso de los insumos, productos, ganado, controles veterinarios, clientes, proveedores, stock de productos, de todo lo que es el Tambo, una Fabrica de quesos y casas de los dueños del mismo. Adicionalmente tambien cuenta con el manejo de la caja diaria, control de transferencias entre cuentas y la posibilidad de cargar una factura mediante la integración con ARCA. Siendo responsable de toda la parte Frontend del producto.",
+    "image": "/assets/images/projects/SistemaTambo.png",
+    "tecnologi": "React, Vite, Tailwind CSS, Javascript, Express JS, Postgres SQL, Axios, WebService ARCA"
+  },
+  {
     "name": "Landing Page",
-    "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica",
+    "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica, logrando de esta manera una mejora sustancial en la captación de clientes potenciales.",
     "image": "/assets/images/projects/Empresa.png",
     "url": "https://empresa-steel.vercel.app/",
     "tecnologi": "Astro, Tailwind Css, Javascript"
+  },  
+  {
+    "name": "QR Generate",
+    "description": "Este proyecto tiene como objetivo generar un código QR que pueda copiarse al portapapeles con los datos que contiene el código o descargarse en formato PNG o PDF.",
+    "image": "/assets/images/projects/AP_QR_Generate.png",
+    "url": "https://app-qr-generate.vercel.app/",
+    "tecnologi": "Astro, Tailwind Css, Javascript"
+  },
+  {
+    "name": "Sistema Web",
+    "description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad frente a futuros inversores y clientes.",
+    "image": "/assets/images/projects/Starwork.png",
+    "url": "https://front-starwork.vercel.app/",
+    "tecnologi": "React, Vite, Tailwind CSS, Javascript, Express JS, Postgres SQL, Axios, Auth"
   },
   {
     "name": "Video Games",
@@ -19,26 +39,5 @@
     "image": "/assets/images/projects/VideoGames.png",
     "url": "https://github.com/AlejandroAgueroDev/videogame",
     "tecnologi": "React, Vite, CSS, Javascript, Express JS, Postgres SQL, Axios"
-  },
-  {
-    "name": "Rick and Morty",
-    "description": "En esta api REST simente mis conocimientos en React JS",
-    "image": "/assets/images/projects/RickAndMorty.png",
-    "url": "https://github.com/AlejandroAgueroDev/RickandMorty",
-    "tecnologi": "React, Vite, CSS, Javascript, Express JS, Postgres SQL, Axios"
-  },
-  {
-    "name": "Sistema Web",
-    "description": "Desarrolle junto a un equipo el sistema web para la empresa Starwork la cual posibilito a la misma de aumentar su visibilidad",
-    "image": "/assets/images/projects/Starwork.png",
-    "url": "https://www.youtube.com/watch?v=MRkDXEbp1k0&ab_channel=AlejandroAg%C3%BCero",
-    "tecnologi": "React, Vite, Tailwind CSS, Javascript, Express JS, Postgres SQL, Axios, Auth"
-  },
-  {
-    "name": "QR Generate",
-    "description": "Este proyecto tiene como objetivo generar un código QR que pueda copiarse al portapapeles con los datos que contiene el código o descargarse en formato PNG o PDF.",
-    "image": "/assets/images/projects/AP_QR_Generate.png",
-    "url": "https://app-qr-generate.vercel.app/",
-    "tecnologi": "Astro, Tailwind Css, Javascript"
   }
 ]
