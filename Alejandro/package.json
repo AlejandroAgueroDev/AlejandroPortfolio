@@ -9,7 +9,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"check": "biome check --apply-unsafe .",
-    "tailwind": "tailwindcss build src/assets/css/main.css -o public/assets/css/main.css"
+		"tailwind": "tailwindcss build src/assets/css/main.css -o public/assets/css/main.css"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.6.0",
@@ -22,6 +22,7 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.7.0",
+		"pnpm": "^11.1.1",
 		"typescript": "^5.4.5"
 	}
 }
