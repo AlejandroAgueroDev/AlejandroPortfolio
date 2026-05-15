@@ -4,14 +4,14 @@
     "description": "Sistema web desarrollado para centros médicos orientado a la gestión integral de pacientes e informes clínicos. Permite administrar múltiples centros médicos de manera simultánea, gestionar pacientes, profesionales e historiales, además de facilitar la creación y organización de informes médicos de forma centralizada. El sistema fue diseñado para optimizar procesos administrativos, mejorar el acceso a la información y agilizar el trabajo diario de los profesionales de salud. Participé principalmente en el desarrollo Frontend, enfocándome en interfaces modernas, responsivas y dinámicas.",
     "image": "/assets/images/projects/Gestion_pacientes.png",
     "tecnologi": "React, Vite, Tailwind CSS, JavaScript, Node.js, Express JS, PostgreSQL, Axios",
-    "video" : "/public/assets/videos/Sistema_Pacientes.mp4"
+    "video": "/assets/videos/Sistema_Pacientes.mp4"
   },
   {
     "name": "Sistema de Liquidación de Sueldos Docentes",
     "description": "Sistema desarrollado para optimizar y automatizar el proceso de liquidación de sueldos docentes, evitando errores manuales y eliminando la dependencia de planillas Excel. Permite gestionar instituciones, docentes, cargos, horas cátedra, adicionales, descuentos y generar liquidaciones de manera precisa y organizada. Además, centraliza toda la información administrativa en una única plataforma, facilitando el control, seguimiento e historial de datos. Participé principalmente en el desarrollo Frontend del sistema, enfocándome en crear interfaces intuitivas, dinámicas y eficientes para mejorar la experiencia de uso.",
     "image": "/assets/images/projects/Liquidacion_docente.png",
     "tecnologi": "React, Vite, Tailwind CSS, JavaScript, Node.js, Express JS, PostgreSQL, Axios, WebService ARCA",
-    "video" : "/public/assets/videos/Sistema_Facturacion_Docente.mp4"
+    "video": "/assets/videos/Sistema_Facturacion_Docente.mp4"
   },
   {
     "name": "Sistema de gestion para tambo",
