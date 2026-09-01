@@ -20,13 +20,6 @@
     "tecnologi": "React, Vite, Tailwind CSS, Javascript, Express JS, Postgres SQL, Axios, WebService ARCA"
   },
   {
-    "name": "Cofundador de Check✅",
-    "description": "Esta es una empresa de desarrollo de software a medida, auditoria y mantenimiento. Donde nuestra misión principal es proporcionar un servicio personalizado, de calidad y de la manera más eficiente posible.",
-    "image": "/assets/images/projects/Check.png",
-    "url": "https://www.checksoftware.com.ar/",
-    "tecnologi": "Astro, Tailwind Css, Typescript"
-  },
-  {
     "name": "Landing Page",
     "description": "Desarrolle la Landing Page para esta empresa, dandole una mayor visibilidad ya que no contaban con una pagina web. Ademas con esto aumento en un 70% su visibilidad publica, logrando de esta manera una mejora sustancial en la captación de clientes potenciales.",
     "image": "/assets/images/projects/Empresa.png",
