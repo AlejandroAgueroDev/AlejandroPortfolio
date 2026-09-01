@@ -6,13 +6,6 @@
     "logo": "/assets/images/experiences/Freelance.png"
   },
   {
-    "dates": "Septiembre 2025 · Actualidad",
-    "role": "Frontend Developer",
-    "company": "Check",
-    "description": "Coofundador responsable del front en los desarrolos de los sistemas, enfocando todo en la accesibilidad y practicidad para el cliente.",
-    "logo": "/assets/images/experiences/CheckSoft.png"
-  },
-  {
     "dates": "Marzo 2024 · Abril 2025",
     "role": "Frontend Developer",
     "company": "ForgeXP",
@@ -55,3 +48,6 @@
     "logo": "/assets/images/experiences/iconoWeb.webp"
   }
 ]
+
+
+
