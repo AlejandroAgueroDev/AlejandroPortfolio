@@ -112,12 +112,13 @@ const modalId = `modal-${name.replace(/\s+/g, "-").toLowerCase()}`;
     video && (
       <div
         id={modalId}
-        class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4"
+        class="pointer-events-none fixed inset-0 z-[60] hidden items-center justify-center bg-black/80 p-4 opacity-0 transition-all duration-300 ease-out"
       >
-        <div class="relative w-full max-w-4xl">
+        <div class="relative z-10 w-full max-w-4xl scale-95 opacity-0 transition-all duration-300 ease-out">
           <button
-            class="absolute -top-12 right-0 text-white text-3xl"
+            class="absolute -top-12 right-0 z-20 flex h-10 w-10 items-center justify-center rounded-full border border-white/30 bg-black/60 text-2xl leading-none text-white shadow-lg backdrop-blur-sm transition hover:bg-black/80"
             data-close={modalId}
+            aria-label="Cerrar video"
           >
             ×
           </button>
@@ -130,6 +131,55 @@ const modalId = `modal-${name.replace(/\s+/g, "-").toLowerCase()}`;
 </>
 
 <script>
+  const closeModal = (modal: HTMLElement | null) => {
+    if (!modal) return;
+
+    modal.classList.remove("opacity-100");
+    modal.classList.add("opacity-0");
+
+    const videoContainer = modal.querySelector(":scope > div");
+    if (videoContainer instanceof HTMLElement) {
+      videoContainer.classList.remove("scale-100", "opacity-100");
+      videoContainer.classList.add("scale-95", "opacity-0");
+    }
+
+    setTimeout(() => {
+      modal.classList.add("hidden");
+      modal.classList.remove("flex", "pointer-events-auto");
+
+      const video = modal.querySelector("video");
+      if (video) {
+        video.pause();
+        video.currentTime = 0;
+      }
+
+      const visibleModals = document.querySelectorAll("[id^='modal-']");
+      const hasVisibleModal = Array.from(visibleModals).some((item) => {
+        return item instanceof HTMLElement && !item.classList.contains("hidden");
+      });
+
+      if (!hasVisibleModal) {
+        document.body.classList.remove("overflow-hidden");
+      }
+    }, 250);
+  };
+
+  const openModal = (modal: HTMLElement | null) => {
+    if (!modal) return;
+
+    modal.classList.remove("hidden");
+    modal.classList.add("flex", "pointer-events-auto", "opacity-100");
+    modal.classList.remove("opacity-0");
+
+    const videoContainer = modal.querySelector(":scope > div");
+    if (videoContainer instanceof HTMLElement) {
+      videoContainer.classList.remove("scale-95", "opacity-0");
+      videoContainer.classList.add("scale-100", "opacity-100");
+    }
+
+    document.body.classList.add("overflow-hidden");
+  };
+
   document.addEventListener("click", (e) => {
     const target = e.target as HTMLElement;
 
@@ -139,12 +189,11 @@ const modalId = `modal-${name.replace(/\s+/g, "-").toLowerCase()}`;
       if (!modalId) return;
 
       const modal = document.getElementById(modalId);
-
       if (modal) {
         e.preventDefault();
-        modal.classList.remove("hidden");
-        modal.classList.add("flex");
+        openModal(modal);
       }
+      return;
     }
 
     const closeBtn = target.closest("[data-close]");
@@ -153,17 +202,22 @@ const modalId = `modal-${name.replace(/\s+/g, "-").toLowerCase()}`;
       if (!modalId) return;
 
       const modal = document.getElementById(modalId);
+      closeModal(modal);
+      return;
+    }
 
-      if (modal) {
-        modal.classList.add("hidden");
-        modal.classList.remove("flex");
+    const modal = target.closest("[id^='modal-']");
+    if (modal && target === modal) {
+      closeModal(modal as HTMLElement);
+    }
+  });
 
-        const video = modal.querySelector("video");
-        if (video) {
-          video.pause();
-          video.currentTime = 0;
-        }
-      }
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+
+    const modal = document.querySelector("[id^='modal-']:not(.hidden)");
+    if (modal instanceof HTMLElement) {
+      closeModal(modal);
     }
   });
 </script>
