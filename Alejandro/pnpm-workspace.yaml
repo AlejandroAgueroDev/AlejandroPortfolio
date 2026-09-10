@@ -1,2 +1,4 @@
 allowBuilds:
+  '@biomejs/biome': true
   esbuild: false
+  sharp: true
