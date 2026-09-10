@@ -3,12 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@11.25.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp",
-      "@biomejs/biome"
-    ]
-  },
+  "onlyBuiltDependencies": [
+    "sharp",
+    "@biomejs/biome"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
